@@ -81,6 +81,10 @@ a:active {
 	background: #0f0f0f;
 }
 
+p.justified {
+    text-align: justify;
+}
+
 
 /*--------------------------------------------------
     02. Custom Button 
@@ -687,6 +691,20 @@ blockquote footer {
        -moz-box-shadow: none;
             box-shadow: none;
 }
+
+
+.bg-boss {
+    position: relative;
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+  
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
 
 
 /*--------------------------------------------------
