@@ -1360,6 +1360,7 @@ blockquote footer {
 
 #cd-google-map {
     position: relative;
+    padding-bottom: 0;
 }
 
 #cd-google-map .address {
