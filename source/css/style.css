@@ -83,6 +83,13 @@ a:active {
 
 p.justified {
     text-align: justify;
+    font-size: 16px;
+    line-height: 175%;
+}
+
+li.justified {
+    font-size: 16px;
+    line-height: 175%;
 }
 
 
@@ -166,7 +173,7 @@ h5 { font-size: 18px; }
 
 h6 {
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -242,6 +249,8 @@ blockquote footer {
 
 .p-0 { padding: 0; }
 
+.p-top-5 { padding-top: 5px; }
+.p-top-10 { padding-top: 10px; }
 .p-top-20 { padding-top: 20px; }
 .p-top-40 { padding-top: 40px; }
 .p-top-60 { padding-top: 60px; }
