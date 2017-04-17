@@ -532,14 +532,20 @@ blockquote footer {
 
 /* Slides */
 
-#slides .caption-wrapper {
+#slides .caption-background {
     position: absolute;
     bottom: 30%;
-    left: 10%;
     margin: 0;
-    max-width: 400px;
     width: 100%;
     text-shadow: 1px 1px 1px #000;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.8);
+    left: 10%;
+    max-width: 400px;
+}
+
+#slides .caption-wrapper {
+    position: relative;
 }
 
 #slides .slide-caption {

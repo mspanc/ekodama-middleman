@@ -69,8 +69,8 @@ $(function () {
 
   $(function() {
     $('#slides').superslides({
-      animation: "fade",
-      play: 10000,
+      // animation: "fade",
+      // play: 10000,
       slide_easing: 'easeInOutCubic',
       slide_speed: 800,
       pagination: true,
