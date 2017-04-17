@@ -534,6 +534,20 @@ blockquote footer {
 
 #slides .caption-background {
     position: absolute;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    bottom: 30%;
+    margin: 0;
+    width: 100%;
+    text-shadow: 1px 1px 1px #000;
+    left: 10%;
+    max-width: 400px;
+}
+
+#slides .caption-background-dark {
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 12px;
     bottom: 30%;
     margin: 0;
     width: 100%;
