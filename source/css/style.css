@@ -29,7 +29,7 @@ URL:            http://francescolepere.com
 19. Google Map
 20. Contact Section
 21. Footer Section
-
+22. FAQ Section
 -------------------------------------------------------------------*/
 
 
@@ -48,7 +48,7 @@ body {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color: #999;
+    color: #666;
 }
 
 a {
@@ -81,13 +81,8 @@ a:active {
 	background: #0f0f0f;
 }
 
-p.justified {
+div.justified p, p.justified, div.justified li, li.justified {
     text-align: justify;
-    font-size: 16px;
-    line-height: 175%;
-}
-
-li.justified {
     font-size: 16px;
     line-height: 175%;
 }
@@ -1573,3 +1568,12 @@ label input, textarea{
 #footer .footer-social li {
     padding: 10px 0;
 }
+
+/*--------------------------------------------------
+    22. FAQ section
+---------------------------------------------------*/
+
+.faq-answer {
+    display: none;
+}
+

@@ -1,0 +1,31 @@
+
+<section id="faq" class="section p-bottom-20 p-top-100">
+    <div class="container">
+        <!-- Section Title -->
+        <div class="row m-bottom-40">
+            <div class="col-md-6">
+                <h3>Najczęściej zadawane pytania</h3>
+                <div class="divider"></div>
+            </div>
+        </div>
+        <!-- End Section Title -->
+        
+        <!-- Questions -->
+        <div class="row m-bottom-40">
+            <div class="col-md-8">
+                <ol>
+                    <% data.faq.questions.each_with_index do |entry, index| %>
+                    <li class="justified">
+                        <a href="#" class="faq-question" data-question-id="<%= index %>"><%= entry.question.gsub("~", "&nbsp;").gsub(" - ", " &ndash; ").gsub(/(\d)\-(\d)/, "\\1&#8209;\\2") %></a>
+                    </li>
+
+                    <div class="justified faq-answer" data-question-id="<%= index %>">
+                        <%= Redcarpet::Markdown.new(Redcarpet::Render::HTML).render(entry.answer).gsub("~", "&nbsp;").gsub(" - ", " &ndash; ").gsub(/(\d)\-(\d)/, "\\1&#8209;\\2") %>
+                    </div>
+                    <% end %>
+                </ol>
+            </div>
+        </div>
+        <!-- End Questions -->
+    </div>
+</section>

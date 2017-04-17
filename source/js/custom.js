@@ -456,3 +456,17 @@ $(function () {
 
 
 });
+
+
+/*--------------------------------------------------
+    FAQ
+---------------------------------------------------*/
+
+  jQuery(document).ready(function($){
+    $('.faq-question').click(function(e) {
+      e.preventDefault();
+
+      var questionId = $(e.target).data("question-id");
+      $(".faq-answer[data-question-id=" + questionId + "]").slideToggle();
+    });
+  });
