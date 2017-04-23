@@ -13,7 +13,16 @@ housing:
       Ogród będzie prowadzony wg zasad permakultury. Projektując cały kompleks było niezmiernie ważne by wszystkie elementy harmonijnie współdziałały z~otoczeniem i~potrzebami użytkowników. W~przyszłości obok ma~stanąć budynek z~salką do~jogi i~pokojami.  
 
   - id: biodomek
-    name: BioDomek - modułowy eko domek pod rozbudowę
+    name: BioDomek
+    subtitle: modułowy eko domek pod rozbudowę
+    detail: |
+      **Projekt**eKodama Archtektura
+
+      **Wykonanie**[Dobry Dom Moritz Reichert](http://www.stankowice64.com/index_right.html) 
+      
+      **~**[Biohabitat Wrocław](https://www.facebook.com/biohabitat.wroclaw)
+      
+      **WWW**[www.biodomek.pl](http://www.biodomek.pl)      
     description: |
       BioDomek to zdrowy, modułowy domek, dostosowany do~rozbudowy i~przewożenia.  To~idea na~czasie. Założeniem tego projektu było stworzenie domku dla coraz bardziej mobilnego i~dynamicznego społeczeństwa. Domek rośnie wraz z~Twoimi potrzebami, bez brania kredytów na~30 lat. Jest też prefabrykowany i~dojeżdża na~działkę prawie skończony, by nie obciążać Cię budową.   
      
@@ -24,13 +33,22 @@ housing:
       Oczywiście moduły wykonane są~z~naturalnych, zdrowych materiałów. Kluczowe w~projekcie są~też fundamenty punktowe, wkręcane co znacznie przyśpiesza montaż i~zmniejsza ingerencję w~grunt,  niwelując negatywny ślad ekologiczny budowy dla gleby. Łatwiej też taki domek zdemontować i~przenieść w~inne miejsce.  Po czasie nie pozostanie po nim żadnego śladu w~pierwotnym miejscu a~grunt pięknie zarośnie trawą lub można tam uprawiać grządki,  ziemia nie została w~żaden sposób skażona.  
      
       W~2016 roku razem z~trzema znajomymi wykonaliśmy prototyp systemu, dzięki któremu mogliśmy sprawdzić wszystkie rozwiązania. Gdy się udało i~ulepszyliśmy, co się da, zrobiliśmy piknik dla wszystkich by poświętować i~odpocząć. Teraz Biodomki są~juz w~sprzedaży. Lećcie zobaczyć ile kosztują: [www.biodomek.pl](http://www.biodomek.pl).
-     
-      Projekt: eKodama Architektura
-      
-      Wykonanie: 
+    secondary:
+      - header: Warianty
+        description: |
+          Podstawowy prefabrykowany przez nas moduł BioDomek 1 o powierzchni 12,31m2 ma wymiary 6,44m x 2,80m.  Konstrukcja domku jest tak przemyślana, żeby można było rozbudowywać bryłę w górę lub na boki.
 
-      * [Dobry Dom Moritz Reichert](http://www.stankowice64.com/index_right.html), 
-      * [Biohabitat Wrocław](https://www.facebook.com/biohabitat.wroclaw).
+          BioDomek 2  - to dwa połączone ze sobą  moduły BioDomek 1, które po złączeniu mają powierzchnię zabudowy 35m2 (połączenie w parterze). Taka powierzchnia zabudowy pozwala budować budynki jeszcze bez pozwolenia na budowę, jako rekreacji indywidualnej lub tymczasowe. 
+
+          BioDomek 2 można rozbudować o moduł na dachu i w ten sposób uzyskać bajeczny taras zielony z widokiem na miasto bądź łąki.  Jeśli masz więcej miejsca, zobacz bardziej rozbudowane opcje. 
+
+      - header: Technologia
+        description: |
+          Moduły są wykonane w konstrukcji szkieletowej z suszonego drewna klejonego KVH, wypełnione są wewnątrz ekologicznym materiałem izolacyjnym z celulozy, wykończone z zewnątrz deskowaniem modrzewiowym pod którym znajduje się otwarta dyfuzyjnie płyta drzewna. Od środka moduły wykończone są ekologicznymi, konstrukcyjnymi płytami OSB i płytami GK. Dołożyliśmy wszelkich starań by nasz system używał w jak największym stopniu materiały naturalne i biodegradowalne. 
+
+      - header: Prefabrykacja
+        description: |
+          Na placu budowy przygotowuje się  jedynie posadowienie na fundamentach punktowych  oraz podłączenie do lokalnych mediów (wcześniej przyłączonych przez właściciela działki). Za pomocą dźwigu  ustawiamy moduły na fundamentach i skręcamy pozostałe elementy. I już :)  gotowe.  Prawda że proste?
 
 workshops:
   - id: lesny-ogrod-jeziorko

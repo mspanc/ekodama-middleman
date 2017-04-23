@@ -1,22 +1,75 @@
 
-<section id="faq" class="section p-bottom-20 p-top-100">
+<!-- Single Work Head -->
+<section id="head-single-work" class="section bg-single-work" style="background-image:url(/img/works/<%= work["id"] %>/head.jpg);" data-stellar-background-ratio="0.5">
+    <div class="overlay-grad-light"></div><!-- Overlay Gradient Light -->
     <div class="container">
-        <!-- Work Name -->
-        <div class="row m-bottom-40">
-            <div class="col-md-8">
+        <!-- Section Work Title -->
+        <div class="row m-top-100">
+            <div class="col-md-6">
                 <h3><%= work["name"].gsub("~", "&nbsp;").gsub(" - ", " &ndash; ").gsub(/(\d)\-(\d)/, "\\1&#8209;\\2") %></h3>
+                <%- if work["subtitle"] -%>
+                    <h5><%= work["subtitle"].gsub("~", "&nbsp;").gsub(" - ", " &ndash; ").gsub(/(\d)\-(\d)/, "\\1&#8209;\\2") %></h5>
+                <%- end -%>
                 <div class="divider"></div>
             </div>
         </div>
-        <!-- End Work Name -->
-
-        <!-- Work Description -->
-        <div class="row m-top-40">
-            <div class="justified col-md-8 p-top-5">
-                <%= Redcarpet::Markdown.new(Redcarpet::Render::HTML).render(work["description"]).gsub("~", "&nbsp;").gsub(" - ", " &ndash; ").gsub(/(\d)\-(\d)/, "\\1&#8209;\\2") %>
-            </div>
-        </div>
-        <!-- End Work Description -->
-
+        <!-- Section Work Title -->
     </div>
 </section>
+<!-- End Single Work Head -->
+
+
+<!-- Start Single Work -->
+<section id="single-work" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="justified col-md-7">
+                <%= Redcarpet::Markdown.new(Redcarpet::Render::HTML).render(work["description"]).gsub("~", "&nbsp;").gsub(" - ", " &ndash; ").gsub(/(\d)\-(\d)/, "\\1&#8209;\\2") %>
+            </div>
+
+            <%- if work["detail"] -%>
+                <div class="col-md-5">
+                    <div class="work-detail">
+                        <%= Redcarpet::Markdown.new(Redcarpet::Render::HTML).render(work["detail"]).gsub("~", "&nbsp;").gsub(" - ", " &ndash; ").gsub(/(\d)\-(\d)/, "\\1&#8209;\\2") %>
+                    </div>
+                </div>
+           <%- end -%>
+        </div>
+        <!-- Work Presentation Primary -->
+        <div class="row m-top-40">
+            <div class="col-md-12 wow fadeInUp">
+                <img class="img-responsive" src="/img/works/<%= work["id"] %>/primary.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Work Presentation Secondary -->
+        <%- if work["secondary"] -%>
+            <%- work["secondary"].each_with_index do |secondary, index| -%>
+                <div class="row m-top-40">
+                    <div class="col-sm-5 wow fadeInUp">
+                        <h5><%= secondary["header"] %></h5>
+                        <div class="divider"></div>
+                        <%= Redcarpet::Markdown.new(Redcarpet::Render::HTML).render(secondary["description"]).gsub("~", "&nbsp;").gsub(" - ", " &ndash; ").gsub(/(\d)\-(\d)/, "\\1&#8209;\\2") %>
+                    </div>
+                    <div class="col-sm-7 wow fadeInUp">
+                        <img class="img-responsive" src="/img/works/<%= work["id"] %>/secondary<%= index + 1 %>.jpg" alt="">
+                    </div>
+                </div>
+            <%- end -%>
+        <%- end -%>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Work Navigation -->
+                <div class="work-navigation">
+                    <a href="#" class="work-prev">Poprzedni</a>
+                    <a href="/works.html" class="work-all">Wszystkie projekty</a>
+                    <a href="#" class="work-next">Następny</a>
+                </div>
+                <!-- End Work Navigation -->
+            </div>
+        </div>
+          
+    </div>
+</section>
+<!-- End Single Work -->
