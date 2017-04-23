@@ -29,6 +29,7 @@ works.keys.each do |work_category|
     proxy "/projekty/#{work["id"]}.html", "/work.html", :locals => { :work => work }
   end
 end
+ignore "/work.html"
 
 # proxy(
 #   '/this-page-has-no-template.html',
