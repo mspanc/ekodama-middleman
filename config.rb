@@ -23,6 +23,13 @@ set :images_dir, 'img'
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
 
+works = YAML.load_file("data/works.yml")
+works.keys.each do |work_category|
+  works[work_category].each do |work|
+    proxy "/projekty/#{work["id"]}.html", "/work.html", :locals => { :work => work }
+  end
+end
+
 # proxy(
 #   '/this-page-has-no-template.html',
 #   '/template-file.html',

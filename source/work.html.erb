@@ -1,0 +1,22 @@
+
+<section id="faq" class="section p-bottom-20 p-top-100">
+    <div class="container">
+        <!-- Work Name -->
+        <div class="row m-bottom-40">
+            <div class="col-md-8">
+                <h3><%= work["name"].gsub("~", "&nbsp;").gsub(" - ", " &ndash; ").gsub(/(\d)\-(\d)/, "\\1&#8209;\\2") %></h3>
+                <div class="divider"></div>
+            </div>
+        </div>
+        <!-- End Work Name -->
+
+        <!-- Work Description -->
+        <div class="row m-top-40">
+            <div class="justified col-md-8 p-top-5">
+                <%= Redcarpet::Markdown.new(Redcarpet::Render::HTML).render(work["description"]).gsub("~", "&nbsp;").gsub(" - ", " &ndash; ").gsub(/(\d)\-(\d)/, "\\1&#8209;\\2") %>
+            </div>
+        </div>
+        <!-- End Work Description -->
+
+    </div>
+</section>

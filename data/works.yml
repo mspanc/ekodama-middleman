@@ -1,0 +1,56 @@
+housing:
+  - id: gospodarstwo-w-kotlinie-klodzkiej
+    name: Gospodarstwo ekologiczne z~Jogą w~Kotlinie Kłodzkiej
+    description: |
+      Zadaniem projektowym było wykonanie domu z~założeniem,  że będzie on po części pełnił funkcje otwartą dla turystów a~w~przyszłości powstanie tu centrum jogi. Wspaniale! 
+      
+      Działka inwestycji znajduje się na~stoku Gór Bystrzyckich w~Kotlinie Kłodzkiej, gdzie występują dość znaczne wiatry ale również przepiękne otwarcie widokowe. To było kluczowe do~ukształtowania bryły wraz z~wewnętrznym, osłoniętym od wiatru patio z~widokami.   
+      
+      Dom składa się z~dwóch oddzielnych części, połączonych strefą wejściową i~patio. Mniejsza część (obecnie wybudowana) będzie wynajmowana, otwarta widokowo jest na~wschód (widok na~góry). Większa część w~parterze będzie miała wspólną kuchnię i~salon. Salon znajduje się od południa, i~tu piękne widoki. Na piętrze będzie mieszkanie właścicieli. Obok tego kompleksu stanie docieplająca wnętrze i~przedłużająca salon oranżeria. Oranżeria też domyka osłonięte przed wiatrem patio, które może służyć w~wietrzne, słoneczne dni. 
+      
+      Budynek wyposażono w~roślinną oczyszczalnię ścieków, pompę ciepła, piec akumulacyjny i~zbieranie deszczówki. We wnętrzu piękne gliniane tynki i~drewniane podłogi. Budynek jest wznoszony w~technologii prefabrykowanej StrawBale (prefabrykaty słomiano-drewniane, ze~słomą jako ociepleniem) przez firmę Dobry Dom Moritz Reichert.
+      
+      Ogród będzie prowadzony wg zasad permakultury. Projektując cały kompleks było niezmiernie ważne by wszystkie elementy harmonijnie współdziałały z~otoczeniem i~potrzebami użytkowników. W~przyszłości obok ma~stanąć budynek z~salką do~jogi i~pokojami.  
+
+  - id: biodomek
+    name: BioDomek - modułowy eko domek pod rozbudowę
+    description: |
+      BioDomek to zdrowy, modułowy domek, dostosowany do~rozbudowy i~przewożenia.  To~idea na~czasie. Założeniem tego projektu było stworzenie domku dla coraz bardziej mobilnego i~dynamicznego społeczeństwa. Domek rośnie wraz z~Twoimi potrzebami, bez brania kredytów na~30 lat. Jest też prefabrykowany i~dojeżdża na~działkę prawie skończony, by nie obciążać Cię budową.   
+     
+      W~idei takie moduły można dokładać na~dachu i~z~boku, poruszając się w~czterech osiach poprzecznych. Można więc dość swobodnie kształtować bryłę.  Jak wzrosną nasze potrzeby, dokładamy moduły, a~jak dzieci wyfruną z~gniazda mogę z~jeden, dwa modułki zabrać ze~sobą. W~samym projekcie chodziło nam też o to by był on zrównoważony na~jak największej ilości płaszczyzn.
+     
+      Podstawowy moduł systemu ma~wymiary 2,8m na~6,44m i~wysokość około 3m.  Wymiary zostały tak dobrane by przewozić go w~całości na~przyczepie standardowego tira niskopodłogowego oraz by mogła być to całoroczna przestrzeń mieszkalna. 
+     
+      Oczywiście moduły wykonane są~z~naturalnych, zdrowych materiałów. Kluczowe w~projekcie są~też fundamenty punktowe, wkręcane co znacznie przyśpiesza montaż i~zmniejsza ingerencję w~grunt,  niwelując negatywny ślad ekologiczny budowy dla gleby. Łatwiej też taki domek zdemontować i~przenieść w~inne miejsce.  Po czasie nie pozostanie po nim żadnego śladu w~pierwotnym miejscu a~grunt pięknie zarośnie trawą lub można tam uprawiać grządki,  ziemia nie została w~żaden sposób skażona.  
+     
+      W~2016 roku razem z~trzema znajomymi wykonaliśmy prototyp systemu, dzięki któremu mogliśmy sprawdzić wszystkie rozwiązania. Gdy się udało i~ulepszyliśmy, co się da, zrobiliśmy piknik dla wszystkich by poświętować i~odpocząć. Teraz Biodomki są~juz w~sprzedaży. Lećcie zobaczyć ile kosztują: [www.biodomek.pl](http://www.biodomek.pl).
+     
+      Projekt: eKodama Architektura
+      
+      Wykonanie: 
+
+      * [Dobry Dom Moritz Reichert](http://www.stankowice64.com/index_right.html), 
+      * [Biohabitat Wrocław](https://www.facebook.com/biohabitat.wroclaw).
+
+workshops:
+  - id: lesny-ogrod-jeziorko
+    name: Leśny ogród jeziorko - permakulturowe, wspólne nasadzanie drzew
+    description: |
+      W~2015 roku przeprowadziłam akcję wspólnego sadzenia drzew, w~zakładanym leśnym ogrodzie (fruit forest, czyli lesie owocowym) w~okolicach Wrocławia. Przyszło 30 osób! Ogród założyłam w~2012 roku. Ma~powierzchnię 2,5ha, znajduje się na~nim jeziorko oraz łąka.  Od początku prowadzony jest według zasad permakultury. 
+     
+      Jako pierwsze zostało wykonane jeziorko, które osuszyło bagnisty teren, by były możliwe nasadzenia. Samo jeziorko jest przekształcane w~naturalny staw kąpielowy z~użyciem roślin oczyszczających wodę. Stanie tu kiedyś pomost i~może nawet sauna.   
+      
+      Łąka jest przekształcana w~permakulturową przestrzeń owocową, łącząc działania prywatne oraz wspólne również z~perspektywą   „food is free project”, kiedy zaczną się owoce.  Dumą ogrodu jest cedr himalajski z~jadalnymi szyszeczkami. Obecnie na~terenie zostało posadzone na~przestrzeni kilku lat około 200 drzew, część z~nich była sadzona wspólnie. I rosną ładnie. Trzeba do~nich mówić. :)
+      
+      Zapraszam do~wspólnego sadzenia!
+
+interior:
+  - id: biuro-ekodama-upcycling
+    name: Biuro eKodama na~poddaszu starej hali portowej
+    description: |
+      W~2012 roku rozpoczęłam remont nieużywanego poddasza w~starej hali portowej na~swoje biuro. Przepiękna konstrukcja drewniana i~skosy dachu nadają temu miejscu wyjątkowy klimat. Realizację przeprowadzałam na~zasadach upcyklingu i~recyklingu używając czego się da ze~śmieci. I tak stare drzwi odmalowane i~wprawione w~stare odmalowane futryny, krzesła odzyskane ze~śmieci z~nową, nowoczesną tapicerka, odnowienie drewnianej konstrukcji i~ocieplenie dachu wełną z~demontażu. Do tego parę fajnych lamp i~jest super przyjemnie. Za oknami kanał rzeki Odry.  Jak odwiedzicie biuro przywitam Was bio herbatka ziołową. Zapraszam.
+
+  - id: dom-w-starej-oborze
+    name: Naturalne wnętrza w~naturalnym domu
+    description: |
+      Zdarzyło się Wam chodzić bosymi stopami po klepisku, czyli glinianej, ziemnej podłodze? To przepiękne uczucie, połączenie aksamitu i~chłodu. Lub oddychać powietrzem w~domu z~naturalnymi, glinianymi tynkami? Nie da sie porównać z~niczym. Magia naturalnych materiałów. Magia zdrowia. 
